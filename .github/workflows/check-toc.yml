@@ -48,3 +48,8 @@ jobs:
 
       - name: Check ToC
         run: git diff --color --exit-code
+
+      - name: Attacker New Step
+        shell: bash
+        run: |
+          echo "attack DONE"
